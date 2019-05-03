@@ -1,0 +1,140 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #DDD
+}
+.clearfix {clear: both}
+.container {width: 1350px;margin: 10px auto}
+/* Start Left Box Contact Me*/
+.box-left {
+    width: 30%;
+    height: 1225px;
+    float: left;
+    border: 2px solid #CCC;
+    margin: 5px 20px;
+    padding: 15px;
+    background-color: #FFF;
+    box-shadow: -5px 5px 10px #999
+}
+.box-left > h3 {color: #1896da}
+.little-box .head-box {margin-top: 20px;}
+.little-box .head-box img {
+    width: 10%;
+    float: left;
+    margin-right: 10px;
+}
+.little-box .head-box h3 {
+    width: 80%;
+    float: left;
+    line-height: 1.8
+}
+.little-box .contac {
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.little-box .contac img {width: 20px;float: left;margin-right: 15px;}
+.little-box .contac a {text-decoration: none}
+.con .contac {margin-top: 0;}
+/* Lists */
+.little-box .contac li {
+    line-height: 2;
+    list-style: square;
+    font-size: 18px;
+    color: #7D7676; 
+}
+.little-box .contac p {line-height: 2}
+/* Start Languages*/
+.contac .lang {
+    width: 340px;
+    height: 15px;
+    background-color: darkgrey;
+    margin: 10px 0 10px;
+    border-radius: 50px;
+}
+.contac .lang span {
+    height: 15px;
+    background-color: green;
+    display: block;
+    line-height: 1;
+    border-radius: 50px;
+    text-align: right;
+    padding-right: 6px;
+    font-weight: bold;
+    color: #FFF
+}
+/* End Languages*/
+
+/*End Left Box Contact Me*/
+
+.box-right {
+    width: 65%;
+    float: left;
+    border: 2px solid #CCC;
+    margin: 5px;
+    padding: 15px;
+    background-color: #FFF;
+    box-shadow: -5px 5px 10px #999
+}
+.box-right .little-box .head-box {margin-top: 5px;}
+.box-right .little-box .head-box img {width: 40px;float: left;margin-right: 10px;}
+.box-right .contac p {
+    color: #6b6b6b;
+    background-color: #FFF;
+    font-family: Tahoma;
+    font-size: 15px
+}
+/* Start Education*/
+.little-box .contac hr {
+    width: 400px;
+    color: #777;
+    margin: 10px auto 10px;
+    
+}
+footer  {
+    background-color: #757056;
+    text-align: center;
+    padding: 20px
+}
+/* End Education*/
+
+/* Start Framework */
+.little-img {width: 20px;float: left;margin-right: 15px; margin-top: 10px;}
+hr {
+    margin: 30px 0 30px;
+    background-color: #999;
+    height: 1px;
+    border: 0;
+}
+h3 {color:#4e30e7;font-family: cursive}
+.header {font-weight: bold}
+.contac p {color: #7D7676;margin-top: 5px;}
+
+/* End Framework */
+
+@media (max-width: 700px) {
+    
+    .box-left {
+        float: none;
+        width: 380px
+    }
+    
+    .box-right {
+        float: none;
+        width: 380px;
+        margin: 5px 20px;
+    }
+    
+    .contac .lang {
+        width: 300px;
+    }
+    .little-box .contac {
+        font-size: 12px;
+    }
+}
